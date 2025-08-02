@@ -1,0 +1,63 @@
+body {
+  background-color: #e0f7fa; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffffd9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-style: none;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-weight: bold;
+  color: #0288d1;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.bio {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hobbies {
+  text-align: left;
+  padding-left: 20px;
+}
+
+a {
+  color: #0288d1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
